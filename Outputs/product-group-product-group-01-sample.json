@@ -1,0 +1,13 @@
+{
+	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-product-group-reads/SAP_API_Caller/caller.go#L60",
+	"function": "sap-api-integrations-product-group-reads/SAP_API_Caller.(*SAPAPICaller).ProductGroup",
+	"level": "INFO",
+	"message": [
+		{
+			"MaterialGroup": "01",
+			"AuthorizationGroup": "",
+			"to_Text": "http://100.21.57.120:8080/sap/opu/odata/sap/API_PRODUCTGROUP_SRV/A_ProductGroup('01')/to_Text"
+		}
+	],
+	"time": "2022-09-16T12:42:11+09:00"
+}

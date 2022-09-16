@@ -1,0 +1,26 @@
+{
+	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-product-group-reads/SAP_API_Caller/caller.go#L67",
+	"function": "sap-api-integrations-product-group-reads/SAP_API_Caller.(*SAPAPICaller).ProductGroup",
+	"level": "INFO",
+	"message": [
+		{
+			"MaterialGroup": "01",
+			"Language": "DE",
+			"MaterialGroupName": "Warengruppe 1",
+			"MaterialGroupText": ""
+		},
+		{
+			"MaterialGroup": "01",
+			"Language": "EN",
+			"MaterialGroupName": "Material group 1",
+			"MaterialGroupText": ""
+		},
+		{
+			"MaterialGroup": "01",
+			"Language": "JA",
+			"MaterialGroupName": "品目グループ 1",
+			"MaterialGroupText": ""
+		}
+	],
+	"time": "2022-09-16T12:42:11+09:00"
+}

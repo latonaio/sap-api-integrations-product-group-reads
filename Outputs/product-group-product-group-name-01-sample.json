@@ -1,0 +1,20 @@
+{
+	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-product-group-reads/SAP_API_Caller/caller.go#L109",
+	"function": "sap-api-integrations-product-group-reads/SAP_API_Caller.(*SAPAPICaller).ProductGroupName",
+	"level": "INFO",
+	"message": [
+		{
+			"MaterialGroup": "01",
+			"Language": "EN",
+			"MaterialGroupName": "Material group 1",
+			"MaterialGroupText": ""
+		},
+		{
+			"MaterialGroup": "02",
+			"Language": "EN",
+			"MaterialGroupName": "Material group 2",
+			"MaterialGroupText": ""
+		}
+	],
+	"time": "2022-09-16T12:46:33+09:00"
+}

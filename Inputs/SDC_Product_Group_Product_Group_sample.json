@@ -1,0 +1,19 @@
+{
+	"connection_key": "response",
+	"result": true,
+	"redis_key": "abcdefg",
+	"filepath": "/var/lib/aion/Data/rededge_sdc/abcdef.json",
+	"ProductGroup": {
+		"MaterialGroup": "01",
+		"AuthorizationGroup": "",
+		"ProductGroupText": {
+			"Language": "",
+			"MaterialGroupName": "",
+			"MaterialGroupText": ""
+		}
+	},
+	"api_schema": "SAPProductGroupReads",
+	"accepter": ["ProductGroup"],
+	"product_group": "01",
+	"deleted": false
+}
