@@ -1,5 +1,4 @@
 # sap-api-integrations-product-group-reads
-sap-api-integrations-product-group-reads は、他のすべての sap-api-integrations-product-group-reads 作成更新の際の 参照元となる マスタレポジトリです。  
 sap-api-integrations-product-group-reads は、外部システム(特にエッジコンピューティング環境)をSAPと統合することを目的に、SAP API で 品目グループデータを取得するマイクロサービスです。    
 sap-api-integrations-product-group-reads には、サンプルのAPI Json フォーマットが含まれています。   
 sap-api-integrations-product-group-reads は、オンプレミス版である（＝クラウド版ではない）SAPS4HANA API の利用を前提としています。クラウド版APIを利用する場合は、ご注意ください。   
