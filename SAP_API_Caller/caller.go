@@ -105,10 +105,9 @@ func (c *SAPAPICaller) ProductGroupName(language, materialGroupName string) {
 	data, err := c.callProductGroupSrvAPIRequirementProductGroupName("A_ProductGroupText", language, materialGroupName)
 	if err != nil {
 		c.log.Error(err)
-	} else {
-		c.log.Info(data)
+		return
 	}
-	return
+	c.log.Info(data)
 }
 
 func (c *SAPAPICaller) callProductGroupSrvAPIRequirementProductGroupName(api, language, materialGroupName string) ([]sap_api_output_formatter.ProductGroupText, error) {
