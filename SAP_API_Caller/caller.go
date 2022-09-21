@@ -55,16 +55,17 @@ func (c *SAPAPICaller) ProductGroup(materialGroup string) {
 	productGroupData, err := c.callProductGroupSrvAPIRequirementProductGroup("A_ProductGroup", materialGroup)
 	if err != nil {
 		c.log.Error(err)
-		return
+	} else {
+		c.log.Info(productGroupData)
 	}
-	c.log.Info(productGroupData)
 
 	productGroupNameData, err := c.callToProductGroupName(productGroupData[0].ToProductGroupText)
 	if err != nil {
 		c.log.Error(err)
-		return
+	} else {
+		c.log.Info(productGroupNameData)
 	}
-	c.log.Info(productGroupNameData)
+	return
 }
 
 func (c *SAPAPICaller) callProductGroupSrvAPIRequirementProductGroup(api, materialGroup string) ([]sap_api_output_formatter.ProductGroup, error) {
@@ -104,9 +105,10 @@ func (c *SAPAPICaller) ProductGroupName(language, materialGroupName string) {
 	data, err := c.callProductGroupSrvAPIRequirementProductGroupName("A_ProductGroupText", language, materialGroupName)
 	if err != nil {
 		c.log.Error(err)
-		return
+	} else {
+		c.log.Info(data)
 	}
-	c.log.Info(data)
+	return
 }
 
 func (c *SAPAPICaller) callProductGroupSrvAPIRequirementProductGroupName(api, language, materialGroupName string) ([]sap_api_output_formatter.ProductGroupText, error) {
